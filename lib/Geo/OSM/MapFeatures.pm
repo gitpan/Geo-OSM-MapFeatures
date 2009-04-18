@@ -23,7 +23,7 @@ Version 0.01
 
 =cut
 
-our $VERSION = '0.02';
+our $VERSION = '0.03';
 
 
 =head1 SYNOPSIS
@@ -172,7 +172,6 @@ sub parse {
 
             $key = $self->_clean_wikitable_cell($key);
             $value = $self->_clean_wikitable_cell($value);
-            $elementtypes = $self->_clean_wikitable_cell($elementtypes);
             $description = $self->_clean_wikitable_cell($description);
 
             # Get all types for the feature
