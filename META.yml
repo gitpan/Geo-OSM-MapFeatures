@@ -1,6 +1,6 @@
 --- #YAML:1.0
 name:                Geo-OSM-MapFeatures
-version:             0.03
+version:             0.04
 abstract:            Parses and represents OpenStreetMap Map Features
 license:             ~
 author:              
